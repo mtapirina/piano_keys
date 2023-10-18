@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link type="image/x-icon" href="./favicon.ico" rel="shortcut icon">
+  <title>Piano Keys</title>
+  <script  src="main.js" defer></script>
+</head>
+
+<body>
+  <p class="title">Piano Player</p>
+  <p id="demo">Follow the song below to play  the piano.</p>
+  <section class="piano disable-select">
+    <section id="c-key" data-key="C" class="key">
+      <section class="keynote">C</section>
+    </section>
+    <section id="c-sharp-key" data-key="C#" class="black-key">
+      <section class="black-keynote">C#</section>
+    </section>
+    <section id="d-key" data-key="D" class="key">
+      <section class="keynote">D</section>
+    </section>
+    <section id="d-sharp-key" data-key="D#" class="black-key">
+      <section class="black-keynote">D#</section>
+    </section>
+    <section id="e-key" data-key="E" class="key">
+      <section class="keynote">E</section>
+    </section>
+    <section id="f-key" data-key="F" class="key">
+      <section class="keynote">F</section>
+    </section>
+    <section id="f-sharp-key" data-key="F#" class="black-key">
+      <section class="black-keynote">F#</section>
+    </section>
+    <section id="g-key" data-key="G" class="key">
+      <section class="keynote">G</section>
+    </section>
+    <section id="g-sharp-key" data-key="G#" class="black-key">
+      <section class="black-keynote">G#</section>
+    </section>
+    <section id="a-key" data-key="A" class="key">
+      <section class="keynote">A</section>
+    </section>
+    <section id="a-sharp-key" data-key="A#" class="black-key">
+      <section class="black-keynote">A#</section>
+    </section>
+    <section id="b-key" data-key="B" class="key">
+      <section class="keynote">B</section>
+    </section>
+    <section id="high-c-key" data-key="C-high" class="key">
+      <div class="keynote">C</div>
+    </section>
+  </section>
+
+  <section id="lyrics">
+    <section id="column-one">
+      <section id="word-one">HAP-</section>
+      <section id="letter-note-one">G</section>
+    </section>
+    <section id="column-two">
+      <section id="word-two">PY</section>
+      <section id="letter-note-two">G</section>
+    </section>
+    <section id="column-three">
+      <section id="word-three">BIRTH-</section>
+      <section id="letter-note-three">A</section>
+    </section>
+    <section id="column-four">
+      <section id="word-four">DAY</section>
+      <section id="letter-note-four">G</section>
+    </section>
+    <section id="column-five">
+      <section id="word-five">TO</section>
+      <section id="letter-note-five">C</section>
+    </section>
+    <section id="column-six">
+      <section id="word-six">YOU</section>
+      <section id="letter-note-six">B</section>
+    </section>
+    <section id="column-optional" class="column-optional">
+      <section id="word-optional">END</section>
+      <section id="letter-note-optional">A</section>
+    </section>
+
+    <button id="first-next-line">Line 2</button>
+    <button id="second-next-line">Line 3</button>
+    <button id="third-next-line">Line 4</button>
+    <button id="fourth-next-line">Reset</button>
+  </section>
+
+  <section id="audio">
+    <audio src="./sound/c-key.mp3" id="C"></audio>
+    <audio src="./sound/c-sharp-key.mp3" id="C#"></audio>
+    <audio src="./sound/d-key.mp3" id="D"></audio>
+    <audio src="./sound/d-sharp-key.mp3" id="D#"></audio>
+    <audio src="./sound/e-key.mp3" id="E"></audio>
+    <audio src="./sound/f-key.mp3" id="F"></audio>
+    <audio src="./sound/f-sharp-key.mp3" id="F#"></audio>
+    <audio src="./sound/g-key.mp3" id="G"></audio>
+    <audio src="./sound/g-sharp-key.mp3" id="G#"></audio>
+    <audio src="./sound/a-key.mp3" id="A"></audio>
+    <audio src="./sound/a-sharp-key.mp3" id="A#"></audio>
+    <audio src="./sound/b-key.mp3" id="B"></audio>
+    <audio src="./sound/high-c-key.mp3" id="C-high"></audio>
+  </section>
+  
+
+</body>
+</html>
