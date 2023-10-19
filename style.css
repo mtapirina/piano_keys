@@ -23,6 +23,7 @@ body{
     font-style: italic;
   }
   .piano{
+    cursor: pointer;
     width: 305px;
     height: 210px;
     display: block;
@@ -64,22 +65,18 @@ body{
     background:linear-gradient(to bottom, #000  ,#434343 ); 
   }
 
+  .keynote, .black-keynote{
+    pointer-events: none;
+    position: absolute;
+  }
   .keynote{
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
     margin-top: 175px;
+    margin-left: 9px;
     color: #141c3a;
   }
   .black-keynote{
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    margin-top: 75px;
+    margin-top: 100px;
+    margin-left: 5px;
   }
   #lyrics{
     width: 400px;
@@ -148,9 +145,4 @@ body{
     letter-spacing: 1px;
     cursor: pointer;
   }
-  .disable-select {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
+  
