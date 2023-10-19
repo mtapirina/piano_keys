@@ -23,7 +23,6 @@ body{
     font-style: italic;
   }
   .piano{
-    cursor: pointer;
     width: 305px;
     height: 210px;
     display: block;
@@ -32,6 +31,7 @@ body{
     margin-top: 30px;
   }
   .key{
+    cursor: pointer;
     width: 30px;
     height: 200px;
     display: inline-block;
@@ -49,6 +49,7 @@ body{
   }
 
   .black-key{
+    cursor: pointer;
     width: 25px;
     height: 125px;
     display: inline-block; 
